@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
-import main_logo from "../assert/main_logo1.png";
-import usa_logo from "../assert/usa_logo.png";
+import main_logo from "../../assert/amazonLogo.png";
+import usa_logo from "../../assert/usa_logo.png";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
@@ -27,7 +27,11 @@ function Header() {
             <p>All</p>
             <ArrowDropDownIcon className="search_left" />
           </span>
-          <input className="search_input" type="text" />
+          <input
+            className="search_input"
+            type="text"
+            placeholder="Search Amazon"
+          />
 
           <SearchIcon className="header_search_icon" />
         </div>
